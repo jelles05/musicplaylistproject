@@ -1,0 +1,90 @@
+#brand-select {
+    display: flex;
+}
+
+#search {
+    display: flex;
+}
+
+.navbar-brand, .fa {
+    cursor: pointer;
+}
+
+.play-button {
+    height: 30px;
+    width: 40px;
+}
+
+.playlist {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.tracks {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.track {
+    display: flex;
+    margin: 15px 25px;
+    background-color: #F8F9FA;
+    border-radius: 15px;
+}
+
+.track>div {
+    margin-left: 15px;
+}
+
+.track img {
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+.css-z3kss3 {
+    display: block;
+    width: max-content;
+    margin: 100px auto;
+}
+
+.DetailResultVideo {
+    width: 95%;
+    margin: 15px auto
+}
+
+.col-Tracks {
+    text-align: center;
+}
+
+.fa-plus, .fa-check {
+    font-size: 24px
+}
+
+.LitracksResult {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item>div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.card img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    background-color: #F8F9FA;
+}
+
+[aria-busy] {
+    display: inline;
+}
